@@ -22,7 +22,7 @@ public class GSMCallHistoryTest
 
         Console.WriteLine("{0} {1}", "Total Cost:", gsm.CalculateTotalCost(0.37m).ToString("C"));
 
-        gsm.ClearCcallLog();
+        gsm.ClearCallLog();
         gsm.DisplayCallInfo();
     }
 

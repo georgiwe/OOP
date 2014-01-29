@@ -84,30 +84,34 @@ public class GSM
     public void DeleteCalls(string number)
     {
         for (int i = 0; i < this.callsMade.Count; i++)
+        {
             if (this.callsMade[i].DialedNumber == number) this.callsMade.RemoveAt(i);
+        }
     }
 
     public void DeleteCalls(int index)
     {
-        if (index < 0 || index >= this.callsMade.Count) 
+        if (index < 0 || index >= this.callsMade.Count)
+        {
             throw new IndexOutOfRangeException("Invalid call index.");
+        }
 
         this.callsMade.RemoveAt(index);
     }
 
-    public void ClearCcallLog()
+    public void ClearCallLog()
     {
         this.callsMade.Clear();
     }
 
     public decimal CalculateTotalCost(decimal pricePerCall)
     {
-        decimal totalPrice = 0;
+        decimal totalCost = 0;
 
         for (int i = 0; i < this.callsMade.Count; i++)
-            totalPrice += pricePerCall * ((decimal)this.callsMade[i].Duration / 60);
+            totalCost += pricePerCall * ((decimal)this.callsMade[i].Duration / 60);
 
-        return totalPrice;
+        return totalCost;
     }
 
     public void DisplayCallInfo()
