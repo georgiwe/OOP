@@ -20,7 +20,9 @@ class Launch
 
         Battery batt = new Battery(battHsIdle, battHsTalk, BatteryType.LiIon);
         Display display = new Display(dispSizeInches, dispNumColours);
-        GSM gsm = new GSM(model, manufacturer, price, owner, batt, display);
+        GSM gsm = new GSM(model, manufacturer, price, owner);
+
+        Console.WriteLine(gsm);
 
         Console.WriteLine(GSM.IPhone4S);
         

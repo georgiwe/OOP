@@ -66,9 +66,9 @@ public class Battery
         var idle = this.HsIdle.ToString();
         var talk = this.HsTalk.ToString();
 
-        result.AppendLine(String.Format("{0} {1}", "Battery type:", type));
-        result.AppendLine(String.Format("{0} {1}", "Standby (hours):", idle));
-        result.AppendLine(String.Format("{0} {1}", "Usage (hours):", talk));
+        result.AppendLine(string.Format("{0} {1}", "Battery type:", type));
+        if (this.hoursIdle != null) result.AppendLine(string.Format("{0} {1}", "Standby (hours):", idle));
+        if (this.hoursTalk != null) result.AppendLine(string.Format("{0} {1}", "Usage (hours):", talk));
 
         return result.ToString();
     }

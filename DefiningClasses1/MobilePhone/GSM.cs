@@ -5,6 +5,9 @@ using System.Text.RegularExpressions;
 
 public class GSM
 {
+    private static GSM iPhone4s = new GSM("iPhone", "Apple Inc.", 600m, "William Gates",
+                                          new Battery(500, 200, BatteryType.LiIon),
+                                          new Display(7.1f, "65 Gigamillion"));
     private string model;
     private string manufacturer;
     private decimal? price;
@@ -15,12 +18,23 @@ public class GSM
 
     private List<Call> callsMade;
 
-    private static GSM iPhone4s = new GSM("iPhone", "Apple Inc.", 600m, "William Gates",
-                                          new Battery(500, 200, BatteryType.LiIon),
-                                          new Display(7.1f, "65 Gigamillion"));
-
     public GSM(string model, string manufacturer)
         : this(model, manufacturer, null, null, null, null)
+    {
+    }
+
+    public GSM(string model, string manufacturer, decimal? price)
+        : this(model, manufacturer, price, null, null, null)
+    {
+    }
+
+    public GSM(string model, string manufacturer, decimal? price, string owner)
+        : this(model, manufacturer, price, owner, null, null)
+    {
+    }
+
+    public GSM(string model, string manufacturer, decimal? price, string owner, Battery batt)
+        : this(model, manufacturer, price, owner, batt, null)
     {
     }
 
@@ -35,7 +49,7 @@ public class GSM
         this.battery = batt;
         this.display = display;
 
-        callsMade = new List<Call>();
+        this.callsMade = new List<Call>();
     }
 
     public void MakeCall(string number, int duration)
@@ -69,7 +83,7 @@ public class GSM
     
     public void DeleteCalls(string number)
     {
-        for (int i = 0; i < callsMade.Count; i++)
+        for (int i = 0; i < this.callsMade.Count; i++)
             if (this.callsMade[i].DialedNumber == number) this.callsMade.RemoveAt(i);
     }
 
@@ -161,7 +175,7 @@ public class GSM
 
         private set
         {
-            if (string.IsNullOrEmpty(value) || string.IsNullOrWhiteSpace(value))
+            if (value != null && (value == "" || Regex.IsMatch(value, @"^ +$")))
             {
                 throw new ArgumentException("Please enter a valid identification");
             }
@@ -178,12 +192,12 @@ public class GSM
         var manufact = this.Manufacturer;
         var owner = this.Owner;
 
-        result.AppendLine(String.Format("{0} {1}", "Phone model:", model));
-        result.AppendLine(String.Format("{0} {1}", "Phone manufacturer:", manufact));
-        result.AppendLine(String.Format("{0} {1}", "Phone ownder:", owner)).AppendLine();
+        result.AppendLine(string.Format("{0} {1}", "Phone model:", model));
+        result.AppendLine(string.Format("{0} {1}", "Phone manufacturer:", manufact));
 
-        result.Append(this.battery.ToString()).AppendLine();
-        result.Append(this.display.ToString()).AppendLine();
+        if (this.owner != null) result.AppendLine(string.Format("{0} {1}", "Phone owner:", owner)).AppendLine();
+        if (this.battery != null) result.Append(this.battery.ToString()).AppendLine();
+        if (this.display != null) result.Append(this.display.ToString()).AppendLine();
         
         return result.ToString();
     }

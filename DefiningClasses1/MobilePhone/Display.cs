@@ -49,8 +49,8 @@ public class Display
         var size = this.Size.ToString();
         var colours = this.NumberOfColours;
 
-        result.AppendLine(String.Format("{0} {1} inches", "Display size:", size));
-        result.AppendLine(String.Format("{0} {1}", "Display colours:", colours));
+        if (this.size != null) result.AppendLine(String.Format("{0} {1} inches", "Display size:", size));
+        if (this.NumberOfColours != null) result.AppendLine(String.Format("{0} {1}", "Display colours:", colours));
 
         return result.ToString();
     }
