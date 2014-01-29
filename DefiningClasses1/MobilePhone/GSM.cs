@@ -196,8 +196,8 @@ public class GSM
         result.AppendLine(string.Format("{0} {1}", "Phone manufacturer:", manufact));
 
         if (this.owner != null) result.AppendLine(string.Format("{0} {1}", "Phone owner:", owner)).AppendLine();
-        if (this.battery != null) result.Append(this.battery.ToString()).AppendLine();
-        if (this.display != null) result.Append(this.display.ToString()).AppendLine();
+        if (this.battery != null) result.Append(this.battery.ToString().Trim('\n', '\r')).AppendLine();
+        if (this.display != null) result.Append(this.display.ToString().Trim('\n', '\r')).AppendLine();
         
         return result.ToString();
     }
