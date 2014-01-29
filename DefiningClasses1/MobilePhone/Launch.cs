@@ -23,7 +23,7 @@ class Launch
         GSM gsm = new GSM(model, manufacturer, price, owner, batt, display);
 
         Console.WriteLine(GSM.IPhone4S);
-
+        
         GSMtest.RunTest();
 
         Call call = new Call(DateTime.Now, "+359883444998", 71);
