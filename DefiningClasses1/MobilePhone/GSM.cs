@@ -19,7 +19,7 @@ public class GSM
                                           new Battery(500, 200, BatteryType.LiIon),
                                           new Display(7.1f, "65 Gigamillion"));
 
-    public GSM(string model, string manufacturer) 
+    public GSM(string model, string manufacturer)
         : this(model, manufacturer, null, null, null, null)
     {
     }

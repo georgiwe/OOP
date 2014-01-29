@@ -13,7 +13,6 @@ class GSMtest
              new GSM("FOO", "BAR", 1000000m, "London museum of Contemporary Art", new Battery(), new Display())
         };
 
-        for (int i = 0; i < testers.Length; i++)
-            Console.WriteLine(testers[i]);
+        for (int i = 0; i < testers.Length; i++) Console.WriteLine(testers[i]);
     }
 }

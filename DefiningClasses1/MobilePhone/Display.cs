@@ -23,8 +23,7 @@ public class Display
 
         private set
         {
-            if (value < 1) throw new ArgumentException("Display size must be between 1 and 9 inches");
-            if (value > 9) throw new ArgumentException("Display size must be between 1 and 9 inches");
+            if (value < 1 || value > 9) throw new ArgumentException("Display size must be between 1 and 9 inches");
 
             this.size = value;
         }
