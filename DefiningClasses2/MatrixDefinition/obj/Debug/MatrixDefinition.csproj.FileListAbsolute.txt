@@ -1,0 +1,6 @@
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\DefiningClasses2\MatrixDefinition\bin\Debug\MatrixDefinition.exe.config
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\DefiningClasses2\MatrixDefinition\bin\Debug\MatrixDefinition.exe
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\DefiningClasses2\MatrixDefinition\bin\Debug\MatrixDefinition.pdb
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\DefiningClasses2\MatrixDefinition\obj\Debug\MatrixDefinition.csprojResolveAssemblyReference.cache
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\DefiningClasses2\MatrixDefinition\obj\Debug\MatrixDefinition.exe
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\DefiningClasses2\MatrixDefinition\obj\Debug\MatrixDefinition.pdb

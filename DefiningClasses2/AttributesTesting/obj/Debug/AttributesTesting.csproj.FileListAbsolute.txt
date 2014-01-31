@@ -1,0 +1,5 @@
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\DefiningClasses2\AttributesTesting\bin\Debug\AttributesTesting.exe.config
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\DefiningClasses2\AttributesTesting\bin\Debug\AttributesTesting.exe
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\DefiningClasses2\AttributesTesting\bin\Debug\AttributesTesting.pdb
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\DefiningClasses2\AttributesTesting\obj\Debug\AttributesTesting.exe
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\DefiningClasses2\AttributesTesting\obj\Debug\AttributesTesting.pdb

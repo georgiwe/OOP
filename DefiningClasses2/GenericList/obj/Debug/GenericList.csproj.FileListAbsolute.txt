@@ -1,0 +1,6 @@
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\DefiningClasses2\GenericList\bin\Debug\GenericList.exe.config
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\DefiningClasses2\GenericList\bin\Debug\GenericList.exe
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\DefiningClasses2\GenericList\bin\Debug\GenericList.pdb
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\DefiningClasses2\GenericList\obj\Debug\GenericList.csprojResolveAssemblyReference.cache
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\DefiningClasses2\GenericList\obj\Debug\GenericList.exe
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\DefiningClasses2\GenericList\obj\Debug\GenericList.pdb
