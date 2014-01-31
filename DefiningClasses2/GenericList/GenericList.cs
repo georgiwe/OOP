@@ -36,7 +36,15 @@ public class GenericList<T>
     // Indexer
     public T this[int ind]
     {
-        get { return this.array[ind]; }
+        get 
+        {
+            if (ind < 0 || ind > this.lastIndex)
+            {
+                throw new IndexOutOfRangeException();
+            }
+
+            return this.array[ind];
+        }
     }
     
     // Methods

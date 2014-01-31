@@ -108,6 +108,27 @@ public class Matrix<T>
         return result;
     }
 
+    public static Matrix<T> operator *(Matrix<T> first, Matrix<T> second)
+    {
+        if (first.Rows != second.Rows ||
+            first.Cols != second.Cols)
+        {
+            throw new ArgumentException("The two matrices must be of identical size.");
+        }
+
+        Matrix<T> result = new Matrix<T>(first.Rows, first.Cols);
+
+        for (int i = 0; i < result.Rows; i++)
+        {
+            for (int j = 0; j < result.Cols; j++)
+            {
+                result[i, j] = (dynamic)first[i, j] * (dynamic)second[i, j];
+            }
+        }
+
+        return result;
+    }
+
     public static bool operator true(Matrix<T> matrix)
     {
         for (int row = 0; row < matrix.Rows; row++)
