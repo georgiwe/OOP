@@ -165,7 +165,7 @@ public class GenericList<T>
         return result.ToString();
     }
 
-    public string ToString(string splitter = " ")
+    public string ToString(string splitter)
     {
         if (this.lastIndex == -1)
         {
