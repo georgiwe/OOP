@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class Matrix<T>
+public class Matrix<T> where T : struct, IComparable
 {
     private T[,] data;
     private int rows;
@@ -8,29 +8,41 @@ public class Matrix<T>
 
     public Matrix(int rows, int cols)
     {
-        if (rows < 0)
-        {
-            throw new ArgumentException("Rows count cannot be negative.");
-        }
-
-        if (cols < 0)
-        {
-            throw new ArgumentException("Cols count cannot be negative.");
-        }
-
         this.data = new T[rows, cols];
-        this.rows = rows;
-        this.cols = cols;
+        this.Rows = rows;
+        this.Cols = cols;
     }
 
     public int Rows
     {
-        get { return this.rows; }
+        get 
+        {
+            return this.rows;
+        }
+
+        private set
+        {
+            if (value < 0)
+            {
+                throw new ArgumentException("Rows count cannot be negative.");
+            }
+        }
     }
 
     public int Cols
     {
-        get { return this.cols; }
+        get
+        {
+            return this.cols;
+        }
+
+        private set
+        {
+            if (value < 0)
+            {
+                throw new ArgumentException("Cols count cannot be negative.");
+            }
+        }
     }
 
     public T this[int row, int col]
