@@ -12,7 +12,7 @@ public class Program
 
         Path path = new Path(point1, point2, new Point3D(2.11, 3.11, 4.11));
 
-        PathStorage.StorePath(path);
+        PathStorage.StorePath(path, "StoredPath.txt");
 
         Path loadedPath = PathStorage.LoadPath("StoredPath.txt");
     }

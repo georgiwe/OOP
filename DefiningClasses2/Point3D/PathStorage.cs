@@ -4,11 +4,11 @@ using System.Linq;
 
 public static class PathStorage
 {
-    public static void StorePath(Path path, string fileName = "StoredPath.txt")
+    public static void StorePath(Path path, string fileName, bool overwrite = false)
     {
         var pth = path.PathOfPoints;
 
-        using (StreamWriter writer = new StreamWriter(fileName))
+        using (StreamWriter writer = new StreamWriter(fileName, overwrite))
         {
             for (int i = 0; i < pth.Count; i++)
             {
