@@ -6,9 +6,7 @@ public class Program
     {
         Point3D point1 = new Point3D(2, 3, 4);
         Point3D point2 = new Point3D(4, 5, 6);
-
-        Console.WriteLine(Point3D.Start);
-
+        
         double distance = Distance.Distance3D(point1, point2);
         Console.WriteLine(distance.ToString("F2"));
 

@@ -2,7 +2,7 @@
 
 public struct Point3D
 {
-    public static readonly Point3D Start = new Point3D(0, 0, 0);
+    private static readonly Point3D Start = new Point3D(0, 0, 0);
 
     private double x;
     private double y;
@@ -13,6 +13,11 @@ public struct Point3D
         this.x = x;
         this.y = y;
         this.z = z;
+    }
+
+    public static Point3D CoordSystemStart
+    {
+        get { return Start; }
     }
 
     public double X
