@@ -37,7 +37,7 @@ public class Launch
 
         // Test Min<T>() and Max<T>()
         list.Add(-4);
-        int minValue = list.Min<int>();
-        int maxValue = list.Max<int>();
+        int minValue = list.Min();
+        int maxValue = list.Max();
     }
 }

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-public class GenericList<T>
+public class GenericList<T> where T : IComparable
 {
     private T[] array;
     private int lastIndex = -1;
@@ -116,9 +116,9 @@ public class GenericList<T>
         return indexOfElem;
     }
 
-    public T Max<T>() where T : IComparable
+    public T Max()
     {
-        dynamic max = this.array[0];
+        T max = this.array[0];
 
         for (int i = 1; i <= this.lastIndex; i++)
         {
@@ -131,9 +131,9 @@ public class GenericList<T>
         return max;
     }
 
-    public T Min<T>() where T : IComparable
+    public T Min()
     {
-        dynamic min = this.array[0];
+        T min = this.array[0];
 
         for (int i = 1; i <= this.lastIndex; i++)
         {

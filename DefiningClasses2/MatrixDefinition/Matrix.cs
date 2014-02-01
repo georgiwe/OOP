@@ -26,6 +26,8 @@ public class Matrix<T> where T : struct, IComparable
             {
                 throw new ArgumentException("Rows count cannot be negative.");
             }
+
+            this.rows = value;
         }
     }
 
@@ -42,6 +44,8 @@ public class Matrix<T> where T : struct, IComparable
             {
                 throw new ArgumentException("Cols count cannot be negative.");
             }
+
+            this.cols = value;
         }
     }
 
@@ -101,8 +105,7 @@ public class Matrix<T> where T : struct, IComparable
 
     public static Matrix<T> operator -(Matrix<T> first, Matrix<T> second)
     {
-        if (first.Rows != second.Rows ||
-            first.Cols != second.Cols)
+        if (first.Rows != second.Rows || first.Cols != second.Cols)
         {
             throw new ArgumentException("The two matrices must be of identical size.");
         }
@@ -122,8 +125,7 @@ public class Matrix<T> where T : struct, IComparable
 
     public static Matrix<T> operator *(Matrix<T> first, Matrix<T> second)
     {
-        if (first.Rows != second.Rows ||
-            first.Cols != second.Cols)
+        if (first.Rows != second.Rows || first.Cols != second.Cols)
         {
             throw new ArgumentException("The two matrices must be of identical size.");
         }
