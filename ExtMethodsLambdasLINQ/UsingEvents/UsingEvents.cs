@@ -10,6 +10,8 @@ class UsingEvents
         timer.RaiseEvent();
 
         timer.Unsubscribe(Method2);
+        timer.Interval = 5;
+        timer.Executions = 3;
 
         timer.RaiseEvent();
     }
