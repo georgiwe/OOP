@@ -1,0 +1,6 @@
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\DelegatesExercise\bin\Debug\DelegatesExercise.exe.config
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\DelegatesExercise\bin\Debug\DelegatesExercise.exe
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\DelegatesExercise\bin\Debug\DelegatesExercise.pdb
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\DelegatesExercise\obj\Debug\DelegatesExercise.exe
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\DelegatesExercise\obj\Debug\DelegatesExercise.pdb
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\DelegatesExercise\obj\Debug\DelegatesExercise.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\ExtendStringbuilder\bin\Debug\ExtendStringbuilder.exe.config
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\ExtendStringbuilder\obj\Debug\ExtendStringbuilder.csprojResolveAssemblyReference.cache
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\ExtendStringbuilder\bin\Debug\ExtendStringbuilder.exe
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\ExtendStringbuilder\bin\Debug\ExtendStringbuilder.pdb
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\ExtendStringbuilder\obj\Debug\ExtendStringbuilder.exe
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\ExtendStringbuilder\obj\Debug\ExtendStringbuilder.pdb

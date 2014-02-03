@@ -1,0 +1,6 @@
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\ExtendIEnumerable\bin\Debug\ExtendIEnumerable.exe.config
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\ExtendIEnumerable\bin\Debug\ExtendIEnumerable.exe
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\ExtendIEnumerable\bin\Debug\ExtendIEnumerable.pdb
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\ExtendIEnumerable\obj\Debug\ExtendIEnumerable.csprojResolveAssemblyReference.cache
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\ExtendIEnumerable\obj\Debug\ExtendIEnumerable.exe
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\ExtendIEnumerable\obj\Debug\ExtendIEnumerable.pdb

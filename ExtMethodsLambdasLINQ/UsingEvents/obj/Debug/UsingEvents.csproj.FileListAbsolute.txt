@@ -1,0 +1,6 @@
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\UsingEvents\bin\Debug\UsingEvents.exe.config
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\UsingEvents\obj\Debug\UsingEvents.csprojResolveAssemblyReference.cache
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\UsingEvents\bin\Debug\UsingEvents.exe
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\UsingEvents\bin\Debug\UsingEvents.pdb
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\UsingEvents\obj\Debug\UsingEvents.exe
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\UsingEvents\obj\Debug\UsingEvents.pdb
