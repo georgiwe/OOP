@@ -25,12 +25,12 @@ public class DelegatesExercise
         timer.RemoveMethod(Test);
     }
 
-    public static void Test()
+    private static void Test()
     {
         Console.WriteLine("Success!");
     }
 
-    public static void Test2()
+    private static void Test2()
     {
         Console.WriteLine("More success!");
     }
