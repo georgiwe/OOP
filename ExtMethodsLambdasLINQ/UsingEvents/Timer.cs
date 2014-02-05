@@ -3,37 +3,40 @@ using System.Diagnostics;
 
 public class Timer
 {
-    public event Action Event;
     private int interval;
     private int executions;
+    private EventHandler<TickEventArgs> tick;
 
-    public Timer(int interval, int executions, Action method) 
-        : this(interval, executions)
+    public Timer(int executions, int interval, params EventHandler<TickEventArgs>[] methods)
+        : this(executions, interval)
     {
-        this.Event += method;
+        this.Executions = executions;
+        this.Interval = interval;
+
+        foreach (var method in methods)
+        {
+            this.Tick += method;
+        }
     }
 
-    public Timer(int interval, int executions)
+    public Timer(int executions, int interval)
     {
         this.Executions = executions;
         this.Interval = interval;
     }
 
-    public int Interval
+    public event EventHandler<TickEventArgs> Tick
     {
-        get
+        add
         {
-            return this.interval;
+            Console.WriteLine("Subscribed \"{0}\" to the timer.", value.Method.Name);
+            this.tick += value;
         }
 
-        set
+        remove
         {
-            if (value <= 0)
-            {
-                throw new ArgumentException();
-            }
-
-            this.interval = value;
+            Console.WriteLine("Unsubscribed \"{0}\" from the timer.", value.Method.Name);
+            this.tick -= value;
         }
     }
 
@@ -55,36 +58,44 @@ public class Timer
         }
     }
 
-    public void Subscribe(Action method)
+    public int Interval
     {
-        this.Event += method;
+        get
+        {
+            return this.interval;
+        }
+
+        set
+        {
+            if (value <= 0)
+            {
+                throw new ArgumentException();
+            }
+
+            this.interval = value;
+        }
     }
 
-    public void Unsubscribe(Action method)
+    public void Start()
     {
-        this.Event -= method;
-    }
-
-    public void RaiseEvent()
-    {
-        int executed = 0;
         Stopwatch clock = new Stopwatch();
+        int executions = 0;
         clock.Start();
 
-        while (executed < this.Executions)
+        while (executions < this.executions)
         {
-            if (clock.Elapsed.Seconds == this.Interval)
+            if (clock.Elapsed.Seconds == this.interval)
             {
-                if (this.Event == null)
-                {
-                    break;
-                }
-
-                this.Event.Invoke();
-
+                this.OnTick(executions);
+                executions++;
                 clock.Restart();
-                executed++;
             }
         }
+    }
+
+    protected void OnTick(int executions)
+    {
+        var e = new TickEventArgs(executions);
+        this.tick(this, e);
     }
 }

@@ -1,28 +1,50 @@
 ﻿using System;
 
-class UsingEvents
+public class UsingEvents
 {
-    static void Main()
+    private static Random rnd = new Random();
+
+    public static void Main()
     {
-        Timer timer = new Timer(1, 2, Mthod);
-        timer.Subscribe(Method2);
+        Timer timer = new Timer(4, 1, ChangeCC);
 
-        timer.RaiseEvent();
+        timer.Tick += OnEachTick;
 
-        timer.Unsubscribe(Method2);
-        timer.Interval = 5;
-        timer.Executions = 3;
+        timer.Start();
 
-        timer.RaiseEvent();
+        Console.WriteLine();
+
+        timer.Interval = 2;
+        timer.Executions = 2;
+        timer.Start();
+
+        Console.ResetColor();
+
+        timer.Tick -= OnEachTick;
     }
 
-    private static void Mthod()
+    private static void OnEachTick(object sender, TickEventArgs eventArgs)
     {
-        Console.WriteLine("Success!");
+        Console.WriteLine("A tick occured at {0:HH:mm:ss}.", eventArgs.Time);
     }
 
-    private static void Method2()
+    private static void ChangeCC(object sender, TickEventArgs eventArgs)
     {
-        Console.WriteLine("Whaaat?!");
+        Console.ForegroundColor = GetRandomConsoleColor();
+    }
+
+    private static ConsoleColor GetRandomConsoleColor()
+    {
+        var consoleColors = Enum.GetValues(typeof(ConsoleColor));
+        ConsoleColor rndCol = (ConsoleColor)consoleColors.GetValue(rnd.Next(consoleColors.Length));
+
+        while (rndCol == ConsoleColor.DarkBlue ||
+            rndCol == ConsoleColor.Black ||
+            rndCol == ConsoleColor.Blue)
+        {
+            rndCol = (ConsoleColor)consoleColors.GetValue(rnd.Next(consoleColors.Length));
+        }
+
+        return rndCol;
     }
 }
