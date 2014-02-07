@@ -1,0 +1,6 @@
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\20. CalculateSum\bin\Debug\_20.CalculateSum.exe.config
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\20. CalculateSum\bin\Debug\_20.CalculateSum.exe
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\20. CalculateSum\bin\Debug\_20.CalculateSum.pdb
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\20. CalculateSum\obj\Debug\_20.CalculateSum.exe
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\20. CalculateSum\obj\Debug\_20.CalculateSum.pdb
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\20. CalculateSum\obj\Debug\20. CalculateSum.csprojResolveAssemblyReference.cache

@@ -3,3 +3,4 @@ C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMet
 C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\QueriesOnStudents\bin\Debug\QueriesOnStudents.pdb
 C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\QueriesOnStudents\obj\Debug\QueriesOnStudents.exe
 C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\QueriesOnStudents\obj\Debug\QueriesOnStudents.pdb
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\QueriesOnStudents\obj\Debug\QueriesOnStudents.csprojResolveAssemblyReference.cache

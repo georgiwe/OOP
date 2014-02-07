@@ -1,6 +1,6 @@
 ﻿using System;
-using System.Linq;
 using System.Collections.Generic;
+using System.Linq;
 
 public class QueriesOnStudents
 {
@@ -8,12 +8,12 @@ public class QueriesOnStudents
     {
         Student[] students =  
         {
-            new Student("georgi", "prodanov", 25),
+            new Student("georgi", "petrov", 25),
             new Student("galena", "radomirova", 23),
             new Student("velizara", "avgustinova", 17),
             new Student("georgi", "stavrev", 25),
             new Student("velizara", "hristova", 23),
-            new Student("maria", "prodanova", 24),
+            new Student("maria", "petrov", 24),
             new Student("hristo", "vladimirov", 66)
         };
 
