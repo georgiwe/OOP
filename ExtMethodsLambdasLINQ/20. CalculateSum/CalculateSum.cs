@@ -2,29 +2,42 @@
 {
     using System;
 
-    public class Program
+    public class CalculateSum
     {
         public static void Main()
         {
-            var res = THEmethod(1, x => Pow(++x, -1m));
+            //var res = THEmethod(2, 0, (n, p) => Pow(n, p), (n) => (n) , (p) => (p - 1));
 
-            Console.WriteLine(res);
+            //var res = THEmethod(1, 1, (n, p) => n / Fact(p), n => n, p => p + 1);
+
+            var res = THEmethod(-2, -1, (n, p) => -Pow(n, p), n => -n, p => p - 1, 1);
+
+            Console.WriteLine("{0:0.00}", res);
         }
 
-        private static decimal THEmethod(int firstTerm, Func<decimal, decimal> incrN)
+        private static decimal THEmethod(
+            decimal arg1,
+            decimal arg2,
+            Func<decimal, decimal, decimal> work, 
+            Func<decimal, decimal> change1,
+            Func<decimal, decimal> change2,
+            decimal defaultStartValue = 0)
         {
-            decimal result = 0;
+            decimal result = defaultStartValue;
             decimal oldRes = 0;
-            decimal diff = 1;
-            decimal oldDiff = -1;
+            decimal diff = 0;
 
-            for (decimal cnt = 0, i = firstTerm; cnt < 10000; i = incrN(i), diff = Math.Abs(oldRes - result))
+            do
             {
-                oldDiff = diff;
                 oldRes = result;
-                result += i;
-                cnt++;
-            }
+
+                result += work(arg1, arg2);
+
+                arg1 = change1(arg1);
+                arg2 = change2(arg2);
+
+                diff = Math.Abs(result - oldRes);
+            } while (diff > 0.000000000000000000000000001m);
 
             return result;
         }
@@ -46,6 +59,18 @@
 
             if (negative) return 1 / result;
             else return result;
+        }
+
+        private static decimal Fact(decimal num)
+        {
+            decimal result = num;
+
+            for (decimal i = num; i >= 2; i--)
+            {
+                result *= i;
+            }
+
+            return result;
         }
     }
 }
