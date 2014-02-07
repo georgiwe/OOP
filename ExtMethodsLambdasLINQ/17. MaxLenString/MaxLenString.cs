@@ -1,13 +1,13 @@
-﻿using System;
-using System.Linq;
-
-namespace MaxLenString
+﻿namespace MaxLenString
 {
+    using System;
+    using System.Linq;
+
     public class MaxLenString
     {
         private static string maxLengthStr;
 
-        public static void Main(string[] args)
+        public static void Main()
         {
             var strArr = new[] { "6666", "999999999", "55555", "22", "1" };
 
