@@ -6,11 +6,11 @@
     {
         public static void Main()
         {
-            //var res = THEmethod(2, 0, (n, p) => Pow(n, p), (n) => (n) , (p) => (p - 1));
+            var res = THEmethod(2, 0, (n, p) => Pow(n, p), (n) => (n) , (p) => (p - 1));
 
             //var res = THEmethod(1, 1, (n, p) => n / Fact(p), n => n, p => p + 1);
 
-            var res = THEmethod(-2, -1, (n, p) => -Pow(n, p), n => -n, p => p - 1, 1);
+            //var res = THEmethod(-2, -1, (n, p) => -Pow(n, p), n => -n, p => p - 1, 1);
 
             Console.WriteLine("{0:0.00}", res);
         }
@@ -49,7 +49,7 @@
 
             bool negative = pow < 0;
 
-            pow = -pow;
+            if (negative) pow = -pow;
             decimal result = num;
 
             for (int i = 1; i < pow; i++)
