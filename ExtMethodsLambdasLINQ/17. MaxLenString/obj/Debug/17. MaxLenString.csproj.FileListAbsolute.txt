@@ -1,0 +1,6 @@
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\17. MaxLenString\bin\Debug\_17.MaxLenString.exe.config
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\17. MaxLenString\bin\Debug\_17.MaxLenString.exe
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\17. MaxLenString\bin\Debug\_17.MaxLenString.pdb
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\17. MaxLenString\obj\Debug\17. MaxLenString.csprojResolveAssemblyReference.cache
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\17. MaxLenString\obj\Debug\_17.MaxLenString.exe
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\17. MaxLenString\obj\Debug\_17.MaxLenString.pdb

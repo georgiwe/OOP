@@ -8,7 +8,7 @@ public class Timer
     private EventHandler<TickEventArgs> tick;
 
     public Timer(int executions, int interval, params EventHandler<TickEventArgs>[] methods)
-        : this(executions, interval)
+         : this(executions, interval)
     {
         this.Executions = executions;
         this.Interval = interval;

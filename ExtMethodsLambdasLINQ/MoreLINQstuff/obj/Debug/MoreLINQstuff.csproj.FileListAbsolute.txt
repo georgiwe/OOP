@@ -3,3 +3,4 @@ C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMet
 C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\MoreLINQstuff\bin\Debug\MoreLINQstuff.pdb
 C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\MoreLINQstuff\obj\Debug\MoreLINQstuff.exe
 C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\MoreLINQstuff\obj\Debug\MoreLINQstuff.pdb
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\ExtMethodsLambdasLINQ\MoreLINQstuff\obj\Debug\MoreLINQstuff.csprojResolveAssemblyReference.cache

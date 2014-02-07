@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesExercise", "Delega
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingEvents", "UsingEvents\UsingEvents.csproj", "{322F818E-D971-4CC5-B397-DC00D0EC167F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Students", "09. Students\09. Students.csproj", "{9CBBEA95-1F4E-4E2F-BB6A-D4BB788641A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17. MaxLenString", "17. MaxLenString\17. MaxLenString.csproj", "{C86AAD1F-9AA4-46B6-A50C-8103D0C2E412}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,14 @@ Global
 		{322F818E-D971-4CC5-B397-DC00D0EC167F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{322F818E-D971-4CC5-B397-DC00D0EC167F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{322F818E-D971-4CC5-B397-DC00D0EC167F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CBBEA95-1F4E-4E2F-BB6A-D4BB788641A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CBBEA95-1F4E-4E2F-BB6A-D4BB788641A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CBBEA95-1F4E-4E2F-BB6A-D4BB788641A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CBBEA95-1F4E-4E2F-BB6A-D4BB788641A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C86AAD1F-9AA4-46B6-A50C-8103D0C2E412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C86AAD1F-9AA4-46B6-A50C-8103D0C2E412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C86AAD1F-9AA4-46B6-A50C-8103D0C2E412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C86AAD1F-9AA4-46B6-A50C-8103D0C2E412}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
