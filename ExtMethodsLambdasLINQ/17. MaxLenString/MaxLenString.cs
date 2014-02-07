@@ -9,7 +9,7 @@
 
         public static void Main()
         {
-            var strArr = new[] { "6666", "999999999", "55555", "22", "1" };
+            var strArr = new[] { "666666", "999999999", "55555", "22", "1" };
 
             maxLengthStr = strArr[0];
 
