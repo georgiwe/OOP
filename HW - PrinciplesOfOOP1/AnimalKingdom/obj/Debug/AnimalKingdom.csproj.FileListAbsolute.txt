@@ -1,0 +1,6 @@
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\HW - PrinciplesOfOOP1\AnimalKingdom\bin\Debug\AnimalKingdom.exe.config
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\HW - PrinciplesOfOOP1\AnimalKingdom\bin\Debug\AnimalKingdom.exe
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\HW - PrinciplesOfOOP1\AnimalKingdom\bin\Debug\AnimalKingdom.pdb
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\HW - PrinciplesOfOOP1\AnimalKingdom\obj\Debug\AnimalKingdom.exe
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\HW - PrinciplesOfOOP1\AnimalKingdom\obj\Debug\AnimalKingdom.pdb
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\HW - PrinciplesOfOOP1\AnimalKingdom\obj\Debug\AnimalKingdom.csprojResolveAssemblyReference.cache
