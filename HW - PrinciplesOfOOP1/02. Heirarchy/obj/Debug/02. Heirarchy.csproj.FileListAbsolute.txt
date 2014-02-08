@@ -1,0 +1,6 @@
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\HW - PrinciplesOfOOP1\02. Heirarchy\bin\Debug\_02.Heirarchy.exe.config
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\HW - PrinciplesOfOOP1\02. Heirarchy\bin\Debug\_02.Heirarchy.exe
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\HW - PrinciplesOfOOP1\02. Heirarchy\bin\Debug\_02.Heirarchy.pdb
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\HW - PrinciplesOfOOP1\02. Heirarchy\obj\Debug\02. Heirarchy.csprojResolveAssemblyReference.cache
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\HW - PrinciplesOfOOP1\02. Heirarchy\obj\Debug\_02.Heirarchy.exe
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\HW - PrinciplesOfOOP1\02. Heirarchy\obj\Debug\_02.Heirarchy.pdb
