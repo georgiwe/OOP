@@ -32,13 +32,13 @@
 
             /* Prob 12 */
             var fromSofia = from student in students
-                        where student.Tel.Contains("+3592")
-                        select student;
+                            where student.Tel.Contains("+3592")
+                            select student;
 
             /* Prob 13 */
             var hasASix = from stud in students
-                       where stud.Marks.Contains(6)
-                       select new { FullName = stud.ToString(), Marks = stud.Marks };
+                          where stud.Marks.Contains(6)
+                          select new { FullName = stud.ToString(), Marks = stud.Marks };
 
             /* Prob 14 */
             var two2s = from stud in students
