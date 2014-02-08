@@ -6,12 +6,15 @@
     {
         public static void Main()
         {
-            var res = THEmethod(2, 0, (n, p) => Pow(n, p), (n) => (n) , (p) => (p - 1));
             int digitsAfterDecimal = 4;
+
+            //var res = THEmethod(2, 0, (n, p) => Pow(n, p), (n) => (n) , (p) => (p - 1));
 
             //var res = THEmethod(1, 1, (n, p) => n / Fact(p), n => n, p => p + 1);
 
             //var res = THEmethod(-2, -1, (n, p) => -Pow(n, p), n => -n, p => p - 1, 1);
+
+            var res = THEmethod(2, 0, (n, p) => Pow(n, p), n => n, p => p + 1);
 
             Console.WriteLine("{0:F" + digitsAfterDecimal + "}", res);
         }
@@ -64,7 +67,7 @@
 
         private static decimal Fact(decimal num)
         {
-            decimal result = num;
+            decimal result = 1;
 
             for (decimal i = num; i >= 2; i--)
             {
