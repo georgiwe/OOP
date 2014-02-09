@@ -23,7 +23,6 @@
             /* Prob 10 */
             IEnumerable<Student> again = students
                                         .Where(s => s.GroupNumber == 2);
-                                        /*.Select(s => s); // degenerate clause */
 
             /* Prob 11 */
             IEnumerable<Student> abv = from student in students

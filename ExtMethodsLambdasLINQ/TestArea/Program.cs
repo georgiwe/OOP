@@ -9,6 +9,7 @@
     {
         private static string maxLengthStr;
         private static Random rnd;
+        private static int calls = 0;
 
         public static void Main()
         {
@@ -23,28 +24,41 @@
 
             maxLengthStr = string.Empty;
 
+
+            ///*var strArrLen = strArr.Max(s => s.Length);
+
+            ////var resultMINE = from str in strArr
+            ////                 where CompareToMax(str)
+            ////                 select str;
+
+            ////var result = strArr.Where(s => CompareToMax(s)); */
+
+            //var resultHIS = from str in strArr
+            //                where str.Length == strArr.Max(sa => sa.Length)
+            //                //where str.Length == strArrLen
+            //                select str;
+
+            ///*var result = strArr.Where(s => s.Length == strArr.Max(x => x.Length)); // GetMax(strArr)
+
+            ////Console.WriteLine("My result: " + resultMINE.Last());*/
+            //Console.WriteLine("His result: " + resultHIS.First());
+
+            //Console.WriteLine("Time: " + sw.Elapsed);
+
+
             Stopwatch sw = new Stopwatch();
             sw.Start();
 
-            /*var strArrLen = strArr.Max(s => s.Length);
+            string res = strArr.First(x => x.Length == strArr.Max(z => z.Length));
+            //var res = strArr.Aggregate((x, y) => x.Length > y.Length ? x : y);
+            //var res = strArr.Where(s => CompareToMax(s)).Last();
 
-            //var resultMINE = from str in strArr
+            //var res = from str in strArr
             //                 where CompareToMax(str)
             //                 select str;
 
-            //var result = strArr.Where(s => CompareToMax(s)); */
-
-            var resultHIS = from str in strArr
-                            where str.Length == strArr.Max(sa => sa.Length)
-                            //where str.Length == strArrLen
-                            select str;
-
-            /*var result = strArr.Where(s => s.Length == strArr.Max(x => x.Length)); // GetMax(strArr)
-
-            //Console.WriteLine("My result: " + resultMINE.Last());*/
-            Console.WriteLine("His result: " + resultHIS.First());
-
-            Console.WriteLine("Time: " + sw.Elapsed);
+            Console.WriteLine(res);
+            Console.WriteLine(sw.Elapsed);
         }
 
         private static int GetMax(IEnumerable<string> arr)
@@ -59,6 +73,7 @@
                 }
             }
 
+            calls++;
             return result;
         }
 

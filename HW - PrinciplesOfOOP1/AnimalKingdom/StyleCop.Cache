@@ -184,9 +184,6 @@
     </timestamps>
     <violations />
   </sourcecode>
-  <project key="-1063192401">
-    <configuration>DEBUG;TRACE</configuration>
-  </project>
   <sourcecode name="Animal.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2013.12.15 15:29:26.000</styleCop>
@@ -210,4 +207,7 @@
     </timestamps>
     <violations />
   </sourcecode>
+  <project key="-1063192401">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
 </stylecopresultscache>
