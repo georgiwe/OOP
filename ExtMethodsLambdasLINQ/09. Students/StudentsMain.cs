@@ -44,6 +44,7 @@
             var two2s = from stud in students
                         where stud.Marks.Count - 2 == stud.Marks.RemoveAll(m => m == 2)
                         select stud;
+
             /* Prob 15 */
             var from2006 = students
                 .Where(s => s.FacNum[4] == '0' && s.FacNum[5] == '6');

@@ -9,20 +9,20 @@
 
         public static void Main()
         {
-            var strArr = new[] { "999999999", "666666", "55555", "22", "1" };
+            var strArr = new[] { "999999999", "22", "1", "55555", "666666", };
 
-            maxLengthStr = strArr[0];
+            maxLengthStr = string.Empty;
 
             var result = from str in strArr
                          where CompareToMax(str)
                          select str;
 
-            Console.WriteLine(result.First());
+            Console.WriteLine(result.Last());
         }
 
         private static bool CompareToMax(string str)
         {
-            if (str.Length >= maxLengthStr.Length)
+            if (str.Length > maxLengthStr.Length)
             {
                 maxLengthStr = str;
                 return true;

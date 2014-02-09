@@ -8,11 +8,11 @@
         {
             int digitsAfterDecimal = 4;
 
-            //var res = THEmethod(2, 0, (n, p) => Pow(n, p), (n) => (n) , (p) => (p - 1));
+            /*var res = THEmethod(2, 0, (n, p) => Pow(n, p), (n) => (n) , (p) => (p - 1));
 
             //var res = THEmethod(1, 1, (n, p) => n / Fact(p), n => n, p => p + 1);
 
-            //var res = THEmethod(-2, -1, (n, p) => -Pow(n, p), n => -n, p => p - 1, 1);
+            //var res = THEmethod(-2, -1, (n, p) => -Pow(n, p), n => -n, p => p - 1, 1);*/
 
             var res = THEmethod(2, 0, (n, p) => Pow(n, p), n => n, p => p + 1);
 
