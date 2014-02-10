@@ -13,15 +13,11 @@
 
             maxLengthStr = string.Empty;
 
-            //var result = from str in strArr
-            //             where CompareToMax(str)
-            //             select str;
+            var result = from str in strArr
+                         where CompareToMax(str)
+                         select str;
 
-            //Console.WriteLine(result.Last());
-
-            var res = strArr.First(x => x.Length == strArr.Max(y => y.Length));
-
-            Console.WriteLine(res);
+            Console.WriteLine(result.Last());
         }
 
         private static bool CompareToMax(string str)
