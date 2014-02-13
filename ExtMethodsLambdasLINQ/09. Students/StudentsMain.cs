@@ -49,11 +49,11 @@
                 .Where(s => s.FacNum[4] == '0' && s.FacNum[5] == '6');
 
             /* Prob 16*/
-            var groupArray = from stud in students
+            var groups = from stud in students
                              select stud.Group;
 
             var join = from stud in students
-                       join gr in groupArray
+                       join gr in groups
                        on stud.Group equals gr
                        where stud.Group.DepartmentName == "math"
                        select new { FullName = stud.ToString(), Group = gr };
