@@ -15,17 +15,10 @@
                 new Dog("La Chupacabra", 1, false)
             };
 
-            Kitten[] kittens =
-            {
-                new Kitten("Kittycat", 3),
-                new Kitten("Pussycat", 2),
-                new Kitten("Fluff", 4),
-            };
-
-            Tomcat[] tomcats =
+            Cat[] cats = new Cat[]
             {
                 new Tomcat("Tom", 5),
-                new Tomcat("Silvester", 4),
+                new Kitten("Fluff", 4),
                 new Tomcat("Topcat", 4)
             };
 
@@ -36,12 +29,26 @@
                 new Frog("Frogette", 1, true)
             };
 
+            //Tomcat[] tomcats =
+            //{
+            //    new Tomcat("Tom", 5),
+            //    new Tomcat("Silvester", 4),
+            //    new Tomcat("Topcat", 4)
+            //};
+
+            //Kitten[] kittens =
+            //{
+            //    new Kitten("Kittycat", 3),
+            //    new Kitten("Pussycat", 2),
+            //    new Kitten("Fluff", 4),
+            //};
+
             double dogAvgAge = Animal.GetAvgAge(dogArr);
-            double kittAvgAge = Animal.GetAvgAge(kittens);
+            double catAvgAge = Animal.GetAvgAge(cats);
             double frgAvgAge = Animal.GetAvgAge(frogs);
 
             Console.WriteLine(dogAvgAge);
-            Console.WriteLine(kittAvgAge);
+            Console.WriteLine(catAvgAge);
             Console.WriteLine(frgAvgAge);
         }
     }
