@@ -20,13 +20,13 @@
         public T Start
         {
             get { return this.start; }
-            set { this.start = value; }
+            private set { this.start = value; }
         }
 
         public T End
         {
             get { return this.end; }
-            set { this.end = value; }
+            private set { this.end = value; }
         }
     }
 }
