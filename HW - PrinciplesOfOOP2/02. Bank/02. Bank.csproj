@@ -43,6 +43,11 @@
   <ItemGroup>
     <Compile Include="Account.cs" />
     <Compile Include="Customer.cs" />
+    <Compile Include="Deposit.cs" />
+    <Compile Include="IDepositable.cs" />
+    <Compile Include="IWithdrawable.cs" />
+    <Compile Include="Loan.cs" />
+    <Compile Include="Mortgage.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

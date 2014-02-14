@@ -1,7 +1,5 @@
 ﻿namespace Bank
 {
-    using System;
-
     public abstract class Account
     {
         private Customer customer;
@@ -15,25 +13,6 @@
             this.InterestRate = rate;
         }
 
-        public decimal Balance
-        {
-            get
-            {
-                /* Do a rights check */
-                return this.balance;
-            }
-
-            private set
-            {
-                if (value < 0)
-                {
-                    throw new ArgumentException();
-                }
-
-                this.balance = value;
-            }
-        }
-
         public decimal InterestRate
         {
             get
@@ -43,10 +22,7 @@
 
             private set
             {
-                if (value < 0)
-                {
-                    throw new ArgumentException();
-                }
+                IsAmountNegative(value);
 
                 this.interestRate = value;
             }
@@ -61,9 +37,38 @@
             }
         }
 
+        protected Customer Customer
+        {
+            get { return this.customer; }
+            set { this.customer = value; }
+        }
+        
+        protected decimal Balance
+        {
+            get
+            {
+                return this.balance;
+            }
+
+            set
+            {
+                IsAmountNegative(value);
+
+                this.balance = value;
+            }
+        }
+
         public virtual decimal CalculateInterest(int months)
         {
             return this.InterestRate * months;
+        }
+
+        protected static void IsAmountNegative(decimal amount)
+        {
+            if (amount < 0)
+            {
+                throw new System.ArgumentException();
+            }
         }
     }
 }

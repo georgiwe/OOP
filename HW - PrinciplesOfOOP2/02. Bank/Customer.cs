@@ -1,8 +1,6 @@
 ﻿namespace Bank
 {
-    using System;
-
-    public abstract class Customer
+    public class Customer
     {
         private string name;
         private bool isCompany;
@@ -24,7 +22,7 @@
             {
                 if (string.IsNullOrEmpty(value))
                 {
-                    throw new ArgumentException();
+                    throw new System.ArgumentException();
                 }
 
                 this.name = value;
