@@ -9,7 +9,7 @@
 
         public override double CalculateSurface()
         {
-            return System.Math.PI * this.Width * this.Width / 4d; // cause width is d... i guess...
+            return System.Math.PI * this.Width * this.Width / 4d; // cause "width" is the diameter, i guess...
         }
     }
 }

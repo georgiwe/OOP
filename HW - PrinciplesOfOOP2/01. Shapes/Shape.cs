@@ -1,6 +1,7 @@
 ﻿namespace Shapes
 {
     using System;
+    using System.Collections.Generic;
 
     public abstract class Shape
     {
@@ -22,10 +23,7 @@
 
             private set
             {
-                if (value < 0)
-                {
-                    throw new ArgumentException();
-                }
+                CheckForZero(value);
 
                 this.width = value;
             }
@@ -40,15 +38,20 @@
 
             private set
             {
-                if (value < 0)
-                {
-                    throw new ArgumentException();
-                }
+                CheckForZero(value);
 
                 this.height = value;
             }
         }
 
         public abstract double CalculateSurface();
+
+        protected static void CheckForZero(double num)
+        {
+            if (num < 0)
+            {
+                throw new ArgumentException();
+            }
+        }
     }
 }
