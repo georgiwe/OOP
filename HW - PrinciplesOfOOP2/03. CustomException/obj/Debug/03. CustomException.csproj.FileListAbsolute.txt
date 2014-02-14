@@ -1,0 +1,5 @@
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\HW - PrinciplesOfOOP2\03. CustomException\bin\Debug\_03.CustomException.exe.config
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\HW - PrinciplesOfOOP2\03. CustomException\bin\Debug\_03.CustomException.exe
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\HW - PrinciplesOfOOP2\03. CustomException\bin\Debug\_03.CustomException.pdb
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\HW - PrinciplesOfOOP2\03. CustomException\obj\Debug\_03.CustomException.exe
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\HW - PrinciplesOfOOP2\03. CustomException\obj\Debug\_03.CustomException.pdb

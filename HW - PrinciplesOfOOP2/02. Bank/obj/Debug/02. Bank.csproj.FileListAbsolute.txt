@@ -1,0 +1,6 @@
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\HW - PrinciplesOfOOP2\02. Bank\bin\Debug\_02.Bank.exe.config
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\HW - PrinciplesOfOOP2\02. Bank\bin\Debug\_02.Bank.exe
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\HW - PrinciplesOfOOP2\02. Bank\bin\Debug\_02.Bank.pdb
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\HW - PrinciplesOfOOP2\02. Bank\obj\Debug\02. Bank.csprojResolveAssemblyReference.cache
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\HW - PrinciplesOfOOP2\02. Bank\obj\Debug\_02.Bank.exe
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\HW - PrinciplesOfOOP2\02. Bank\obj\Debug\_02.Bank.pdb
