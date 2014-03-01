@@ -21,7 +21,7 @@
                 return this.width;
             }
 
-            private set
+            protected set
             {
                 CheckForZero(value);
 
@@ -36,7 +36,7 @@
                 return this.height;
             }
 
-            private set
+            protected set
             {
                 CheckForZero(value);
 
