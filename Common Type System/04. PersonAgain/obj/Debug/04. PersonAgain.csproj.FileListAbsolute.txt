@@ -1,0 +1,12 @@
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\StudentsAgain\04. PersonAgain\bin\Debug\_04.PersonAgain.exe.config
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\StudentsAgain\04. PersonAgain\bin\Debug\_04.PersonAgain.exe
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\StudentsAgain\04. PersonAgain\bin\Debug\_04.PersonAgain.pdb
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\StudentsAgain\04. PersonAgain\obj\Debug\04. PersonAgain.csprojResolveAssemblyReference.cache
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\StudentsAgain\04. PersonAgain\obj\Debug\_04.PersonAgain.exe
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\StudentsAgain\04. PersonAgain\obj\Debug\_04.PersonAgain.pdb
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\Common Type System\04. PersonAgain\bin\Debug\_04.PersonAgain.exe.config
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\Common Type System\04. PersonAgain\bin\Debug\_04.PersonAgain.exe
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\Common Type System\04. PersonAgain\bin\Debug\_04.PersonAgain.pdb
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\Common Type System\04. PersonAgain\obj\Debug\04. PersonAgain.csprojResolveAssemblyReference.cache
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\Common Type System\04. PersonAgain\obj\Debug\_04.PersonAgain.exe
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\OOP\Common Type System\04. PersonAgain\obj\Debug\_04.PersonAgain.pdb

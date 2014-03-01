@@ -1,0 +1,6 @@
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\StudentsAgain\01. StudentsAgain\bin\Debug\_01.StudentsAgain.exe.config
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\StudentsAgain\01. StudentsAgain\bin\Debug\_01.StudentsAgain.exe
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\StudentsAgain\01. StudentsAgain\bin\Debug\_01.StudentsAgain.pdb
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\StudentsAgain\01. StudentsAgain\obj\Debug\01. StudentsAgain.csprojResolveAssemblyReference.cache
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\StudentsAgain\01. StudentsAgain\obj\Debug\_01.StudentsAgain.exe
+C:\Users\Georgi\Documents\Visual Studio 2012\Projects\Telerik Academy\StudentsAgain\01. StudentsAgain\obj\Debug\_01.StudentsAgain.pdb
