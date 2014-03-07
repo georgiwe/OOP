@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 public static class IEnumerableExtensions
 {
@@ -58,7 +59,7 @@ public static class IEnumerableExtensions
 
     public static T Min<T>(this IEnumerable<T> elements) where T : IComparable
     {
-        dynamic min = null;
+        T min = elements.FirstOrDefault();
 
         foreach (var element in elements)
         {
@@ -68,12 +69,12 @@ public static class IEnumerableExtensions
             }
         }
 
-        return (T)min;
+        return min;
     }
 
     public static T Max<T>(this IEnumerable<T> elements) where T : IComparable
     {
-        dynamic max = null;
+        T max = elements.FirstOrDefault();
 
         foreach (var element in elements)
         {
@@ -83,7 +84,7 @@ public static class IEnumerableExtensions
             }
         }
 
-        return (T)max;
+        return max;
     }
 
     private static void CheckEligibilty(Type type)

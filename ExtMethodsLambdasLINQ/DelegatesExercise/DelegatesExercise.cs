@@ -4,7 +4,7 @@ public class DelegatesExercise
 {
     public static void Main()
     {
-        Timer timer = new Timer(1, 3, Test);
+        Timer timer = new Timer(1, 3, Test, Test2);
 
         timer.Execute();
 
